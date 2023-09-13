@@ -130,6 +130,7 @@ async function HeapSortCrescent(n) {
 
 function GenerateArrayIndicesAndHeapCres() {
     document.getElementById("array").innerHTML = ""; // Limpa o conteúdo atual
+    document.getElementById("main").classList.add("expanded");
     generatearray();
     generate_idx();
     HeapSortCrescent(20);
@@ -212,6 +213,7 @@ async function HeapSortDecrescent(n) {
 
 function GenerateArrayIndicesAndHeapDecres() {
     document.getElementById("array").innerHTML = ""; // Limpa o conteúdo atual
+    document.getElementById("main").classList.add("expanded");
     generatearray();
     generate_idx();
     HeapSortDecrescent(20);
